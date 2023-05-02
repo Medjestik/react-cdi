@@ -1,0 +1,110 @@
+.competence {
+  width: 100%;
+  padding: 0px 0px 200px 0px;
+}
+.competence__list {
+  margin: 48px 0px 0px 0px;
+  padding: 0px;
+  list-style-type: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.competence__item {
+  margin: 0px;
+  padding: 48px;
+  box-sizing: border-box;
+  background: var(--white-color);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  transition: all .3s ease-in-out;
+}
+.competence__item:hover {
+  background: var(--main-color);
+}
+.competence__item-count {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 64px;
+  color: var(--main-color);
+  transition: all .3s ease-in-out;
+}
+.competence__item:hover .competence__item-count {
+  color: var(--white-color);
+}
+.competence__item-title {
+  margin: 8px 0px 20px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--title-color);
+  transition: all .3s ease-in-out;
+}
+.competence__item:hover .competence__item-title {
+  color: var(--white-color);
+}
+.competence__item-indicator {
+  margin: auto 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+.competence__item-indicator:hover {
+  cursor: pointer;
+}
+.competence__item-indicator-text {
+  display: none;
+  margin: 0px 8px 0px 0px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--white-color);
+  letter-spacing: 1.1px;
+  transition: all .3s ease-in-out;
+}
+.competence__item:hover .competence__item-indicator-text {
+  display: block;
+}
+.competence__item-indicator-arrow {
+  margin: auto 0px 0px 0px;
+  width: 34px;
+  height: 34px;
+  background-image: url('../../images/competence-arrow-red.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.competence__item:hover .competence__item-indicator-arrow {
+  margin: auto 0px 0px 0px;
+  background-image: url('../../images/competence-arrow-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.competence__btn {
+  margin: 40px 0px 0px 0px;
+  width: 100%;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  background-color: var(--main-color);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: var(--white-color);
+  transition: all .3s ease-in-out;
+}
+.competence__btn:hover {
+  cursor: pointer;
+  opacity: .7;
+}

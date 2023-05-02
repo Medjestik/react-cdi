@@ -1,0 +1,48 @@
+.page {
+  --title-color: #262626;
+  --subtitle-color: #343434;
+  --white-color: #ffffff;
+  --background-main-color: #E9EAED; 
+  --background-secondary-color: #fafafa;
+  --background-third-color: #F3F3F3;
+  --main-color: #E31B1A;
+  --secondary-color: #464A53;
+  --decoration-color: #0D64CD;
+  --border-card-color: #DDDDDD;
+  --border-radius: 4px;
+  color: var(--subtitle-color);
+  background-color: var(--background-main-color);
+  box-sizing: border-box;
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+.container {
+  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0px auto;
+  box-sizing: border-box;
+  z-index: 5;
+}
+.section {
+  margin: 136px 0px 0px 0px;
+}
+.section__title {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+  color: var(--title-color);
+}

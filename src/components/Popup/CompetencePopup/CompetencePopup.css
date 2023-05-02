@@ -1,0 +1,24 @@
+.competence-popup__title {
+  margin: 8px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--title-color);
+}
+.competence-popup__list {
+  margin: 16px 0px 0px 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.competence-popup__item {
+  margin: 0px 0px 8px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--title-color);
+}
+.competence-popup__item:last-of-type {
+  margin: 0px;
+}
