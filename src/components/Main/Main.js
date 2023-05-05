@@ -21,8 +21,8 @@ function Main() {
 
       <div className='container'>
         <div className='main__container'>
-          <h1 className='main__title'>Текст для заголовка на&nbsp;две&nbsp;строки</h1>
-          <p className='main__subtitle'>Текст для подписи на три строки Текст для подписи на три строки Текст для подписи на три строки Текст для подписи на три строки Текст для подписи на три строки Текст для подписи на три строки Текст для подписи на три строки Текст для подписи на три строки Текст для подписи на три строки</p>
+          <h1 className='main__title'>Виртуальные мастер-классы</h1>
+          <p className='main__subtitle'>Центральной дирекции инфраструктуры</p>
           <a className='main__btn' href='https://dpo.emiit.ru/' target='_blank' rel='noreferrer'>Войти</a>
           <Link className='main__arrow' to='competence' smooth={true} offset={-200} duration={1000} spy={true}></Link>
         </div>

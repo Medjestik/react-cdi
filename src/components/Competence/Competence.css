@@ -24,6 +24,134 @@
 .competence__item:hover {
   background: var(--main-color);
 }
+.competence__item-row {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.competence__item-icon {
+  margin: 0px 20px 0px 0px;
+  width: 52px;
+  height: 52px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.competence__item-icon_type_1 {
+  background-image: url('../../images/icons/1-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_1 {
+  background-image: url('../../images/icons/1-white.svg');
+}
+.competence__item-icon_type_2 {
+  background-image: url('../../images/icons/2-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_2 {
+  background-image: url('../../images/icons/2-white.svg');
+}
+.competence__item-icon_type_3 {
+  background-image: url('../../images/icons/3-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_3 {
+  background-image: url('../../images/icons/3-white.svg');
+}
+.competence__item-icon_type_4 {
+  background-image: url('../../images/icons/4-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_4 {
+  background-image: url('../../images/icons/4-white.svg');
+}
+.competence__item-icon_type_5 {
+  background-image: url('../../images/icons/5-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_5 {
+  background-image: url('../../images/icons/5-white.svg');
+}
+.competence__item-icon_type_6 {
+  background-image: url('../../images/icons/6-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_6 {
+  background-image: url('../../images/icons/6-white.svg');
+}
+.competence__item-icon_type_7 {
+  background-image: url('../../images/icons/7-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_7 {
+  background-image: url('../../images/icons/7-white.svg');
+}
+.competence__item-icon_type_8 {
+  background-image: url('../../images/icons/8-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_8 {
+  background-image: url('../../images/icons/8-white.svg');
+}
+.competence__item-icon_type_9 {
+  background-image: url('../../images/icons/9-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_9 {
+  background-image: url('../../images/icons/9-white.svg');
+}
+.competence__item-icon_type_10 {
+  background-image: url('../../images/icons/10-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_10 {
+  background-image: url('../../images/icons/10-white.svg');
+}
+.competence__item-icon_type_11 {
+  background-image: url('../../images/icons/11-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_11 {
+  background-image: url('../../images/icons/11-white.svg');
+}
+.competence__item-icon_type_12 {
+  background-image: url('../../images/icons/12-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_12 {
+  background-image: url('../../images/icons/12-white.svg');
+}
+.competence__item-icon_type_13 {
+  background-image: url('../../images/icons/13-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_13 {
+  background-image: url('../../images/icons/13-white.svg');
+}
+.competence__item-icon_type_14 {
+  background-image: url('../../images/icons/14-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_14 {
+  background-image: url('../../images/icons/14-white.svg');
+}
+.competence__item-icon_type_15 {
+  background-image: url('../../images/icons/15-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_15 {
+  background-image: url('../../images/icons/15-white.svg');
+}
+.competence__item-icon_type_16 {
+  background-image: url('../../images/icons/16-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_16 {
+  background-image: url('../../images/icons/16-white.svg');
+}
+.competence__item-icon_type_17 {
+  background-image: url('../../images/icons/17-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_17 {
+  background-image: url('../../images/icons/17-white.svg');
+}
+.competence__item-icon_type_18 {
+  background-image: url('../../images/icons/18-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_18 {
+  background-image: url('../../images/icons/18-white.svg');
+}
+.competence__item-icon_type_19 {
+  background-image: url('../../images/icons/19-color.svg');
+}
+.competence__item:hover .competence__item-icon_type_19 {
+  background-image: url('../../images/icons/19-white.svg');
+}
 .competence__item-count {
   margin: 0px;
   font-style: normal;
@@ -31,7 +159,6 @@
   font-size: 64px;
   line-height: 64px;
   color: var(--main-color);
-  transition: all .3s ease-in-out;
 }
 .competence__item:hover .competence__item-count {
   color: var(--white-color);
@@ -43,7 +170,6 @@
   font-size: 24px;
   line-height: 28px;
   color: var(--title-color);
-  transition: all .3s ease-in-out;
 }
 .competence__item:hover .competence__item-title {
   color: var(--white-color);

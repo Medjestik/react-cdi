@@ -40,7 +40,10 @@ function Competence() {
           {
             competence.slice(0, countCompetence).map((elem, i) => (
               <li className='competence__item' key={i}>
-                <span className='competence__item-count'>{elem.count}</span>
+                <div className='competence__item-row'>
+                  <div className={`competence__item-icon competence__item-icon_type_${elem.index}`}></div>
+                  <span className='competence__item-count'>{elem.count}</span>
+                </div>
                 <h4 className='competence__item-title'>{elem.title}</h4>
                 <div className='competence__item-indicator' onClick={() => showCompetencePopup(elem)}>
                   <p className='competence__item-indicator-text'>Индикаторы</p>

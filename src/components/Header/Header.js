@@ -23,6 +23,8 @@ function Header() {
 
   return (
     <header className={`header ${isColoredHeader ? 'header_type_color' : ''}`}>
+
+      <div className='header__rails'></div>
       
       <div className='header__container'>   
         <img className='header__logo' src={logo} alt=' '></img>

@@ -23,7 +23,10 @@ function CompetencePopup({ isOpen, onClose, competence }) {
       <ul className='competence-popup__list'>
         {
           competence.indicators.map((elem, i) => (
-            <li className='competence-popup__item' key={i}>{competence.index}.{i + 1} {elem}</li>
+            <li className='competence-popup__item' key={i}>
+              <span className='competence-popup__item-count'>{competence.index}.{i + 1}</span>
+              <p className='competence-popup__item-text'>{elem}</p>
+            </li>
           )) 
         }
       </ul>

@@ -12,13 +12,34 @@
   list-style-type: none;
 }
 .competence-popup__item {
-  margin: 0px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+  color: var(--title-color);
+  margin: 0px 0px 16px 0px;
+}
+.competence-popup__item:last-of-type {
+  margin: 0px;
+}
+.competence-popup__item-count {
+  min-width: 80px;
+  margin: 0px 16px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border-radius: 4px;
+}
+.competence-popup__item-text {
+  margin: 0px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: var(--title-color);
-}
-.competence-popup__item:last-of-type {
-  margin: 0px;
 }
